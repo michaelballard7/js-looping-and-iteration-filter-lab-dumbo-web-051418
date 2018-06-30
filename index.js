@@ -8,6 +8,9 @@ function findMatching(collection, string) {
 
 
 function fuzzyMatch(collection, string){
+  return collection.filter(function(driver){
+    return driver.split("")[0] === string.split("")[0]
+  })
   
 }
 

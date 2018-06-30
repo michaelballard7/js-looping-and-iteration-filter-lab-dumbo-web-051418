@@ -1,8 +1,8 @@
 // Code your solution in this file
 
 function findMatching(collection, string) {
-  return collection.filter(function(){
-    collection === string
+  return collection.filter(function(driver){
+    driver === string
   })
 }
 

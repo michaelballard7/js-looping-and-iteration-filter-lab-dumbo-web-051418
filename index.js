@@ -16,7 +16,7 @@ function fuzzyMatch(collection, string){
 
 function matchName(collection, string){
   return collection.filter(function(driver){
-    return driver.name === string
+    return driver.name.toLowerCase() === string.toLowerCase()
   })
   
 }

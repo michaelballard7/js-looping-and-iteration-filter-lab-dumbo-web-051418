@@ -2,7 +2,7 @@
 
 function findMatching(collection, string) {
   return collection.filter(function(driver){
-   return driver.toLowerCase === string.toLowerCase
+   return driver.toLowerCase() === string.toLowerCase()
   })
 }
 
